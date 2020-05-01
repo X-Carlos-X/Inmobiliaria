@@ -16,7 +16,7 @@
                             {{ $vivienda->precio }}€
                         </div>
                         <div class="vivienda-contacto">
-                            <a href="{{ route('vivienda.ver', $vivienda->id) }}">Contacta</a>
+                            <a href="{{ route('user', $vivienda->usuario()->id) }}">Contacta</a>
                         </div>
                     </div>
                 </div>
